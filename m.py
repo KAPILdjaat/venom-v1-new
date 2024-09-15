@@ -279,7 +279,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: BGMI @JAAT_YT"
+    response = f"{username}, 😡𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃☠️.🔥😈🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: BGMI// @JAAT_YT"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -318,9 +318,9 @@ def handle_bgmi(message):
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
                 bot.reply_to(message, response)  # Notify the user that the attack is finished
         else:
-            response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
+            response = "✅✅ Usage :- /bgmi <target> <port> <time> <play>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @JAAT_YT")
+        response = ("🚫❌ Unauthorized Access! ❌🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @JAAT_YT")
 
     bot.reply_to(message, response)
 
@@ -357,7 +357,7 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @JAAT_YT
+Buy From :- @JAAT_YT//KAPIL DAHIYA
 Official Channel :- https://t.me/DAHIYA_OP
 '''
     for handler in bot.message_handlers:
@@ -374,7 +374,7 @@ Official Channel :- https://t.me/DAHIYA_OP
 def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
-🤖Try To Run This Command : /help 
+🤖Try To Run This Command : /help KAPIL DAHIYA
 ✅BUY :- @JAAT_YT'''
     bot.reply_to(message, response)
 
@@ -396,10 +396,10 @@ def welcome_plan(message):
 
 Vip 🌟 :
 -> Attack Time : 1000 (S)
-> After Attack Limit : 20 sec
--> Concurrents Attack : 300
+> After Attack Limit : 200 sec
+-> Concurrents Attack : 3000
 
-Pr-ice List💸 :
+Pr-ice List💸🫰 :
 Day-->80 Rs
 Week-->400 Rs
 Month-->1000 Rs
